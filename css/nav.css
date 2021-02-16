@@ -1,0 +1,42 @@
+body {
+    background-color: green;
+}
+
+header {
+    margin: auto;
+    width: 80%;
+}
+
+.logo {
+    background-image: url(../img/m.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    width:30%;
+    
+}
+
+.nav {
+    width: 80%;
+    display: flex;    
+}
+
+a {
+    font-family: sans-serif;
+    display: inline-flex;
+    padding: 6px;
+    background-color: white;
+    color: black;
+    text-decoration: none;
+    list-style-type: none;
+    background-color: white; 
+}
+
+a:hover {
+    color: green;
+    background-color: gray;
+}
+
+.rojo {
+    background-color: red;
+    display: inline-flex;
+}
